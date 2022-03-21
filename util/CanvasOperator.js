@@ -69,8 +69,7 @@ class CanvasOperator{
         this.node.pubsub.removeListener(this.topic,this._onMessage);
         this.node.pubsub.unsubscribe(this.topic);
     }
-
-    // アロー関数で記述するとどうなるんだろ🤔
+    
     _onMessage(mes){
         try {
             const request = Request.decode(mes.data);
