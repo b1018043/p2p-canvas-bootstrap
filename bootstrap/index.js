@@ -15,7 +15,7 @@ const Gossipsub = require('libp2p-gossipsub')
 
 const process = require('process')
 
-const PubsubComment = require('../util/Comment')
+const PubsubComment = require('../util/CanvasOperator')
 
 const PeerID = require('peer-id')
 const ids = require('../id.json')
